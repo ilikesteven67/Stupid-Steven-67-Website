@@ -1,54 +1,51 @@
 # Stupid Steven 67 Website
 
-A completely unnecessary, absolutely over‑the‑top website dedicated to Steven — also known as *Stupid Steven 67*. This project exists purely for comedic purposes, friendly chaos, and the ongoing mission to document Steven’s legendary ability to be Steven. Built with questionable judgment and a lot of laughter.
+A website for Steven because I like it
 
-## Features
-This website includes a variety of Steven‑related content, such as:
+## Features:
+This website includes a lot of Steven:
 
-- Biased and exaggerated Steven lore
-- High‑quality jokes at Steven’s expense
-- A lovingly crafted roast environment
-- Random facts that may or may not be true
-- A design that Steven definitely didn’t approve
+- About Steven
+- Steven Gallary
+- Relationships
+-------------------------------------------------------------------------------------------------------------------------------------------- More Steven Coming Soon!
 
-## Purpose
-The goal of this project is simple:  
-Celebrate Steven in the most unserious way possible.  
-This site is a tribute, a roast, and a digital monument to the chaos he brings.
+## Purpose:
+Look at Steven because I like it  
 
-## Live Site
+
+## Live Status:
 Check out the latest version here:  
-https://yourusername.github.io
+https://ilikesteven67.github.io
 
-## Installation and Usage
-No installation required — just open the site and enjoy the Steven experience.  
-If you want to modify or expand the site, clone the repo and edit the HTML/CSS as needed.
+## Instructions:
+No installation required - open the website on your browser and enjoy!
 
-## If You Run Into Issues
-If something breaks, it’s probably Steven’s fault.  
-But if you’re convinced it’s not:
+## Usage:
+Feel free to explore or fork this project for personal use, learning, or entertainment.  
+If you reuse any part of the site, please provide appropriate credit to this repository.
 
-1. Refresh the page  
-2. Blame Steven again  
-3. Then consider opening a Discussion if the problem persists
+<sub><i>All content related to Steven (Stupid Steven 67) is intentionally comedic and created for light‑hearted, fictional purposes. This project is meant for fun and should be used respectfully and responsibly.</i></sub>
+
+## If You Run Into Issues:
+If something on the site isn’t working as expected, please open an Issue in this repository.  
+Issues are the best place to report bugs, broken features, or anything that needs fixing.  
+I’ll try to review and respond as soon as I can.
 
 ## Have Ideas for New Steven Content?
-Head over to the Discussions tab and suggest new jokes, features, or Steven‑related enhancements.  
-If it’s funny and fits the vibe, it might make it into a future update.
+If you have suggestions for new jokes, features, or Steven‑related additions, feel free to start a Discussion.  
+Discussions are the place for brainstorming, sharing ideas, and proposing fun new content for the site.
 
-## Noteworthy Steven‑Related Additions
-Some ideas that pair well with this project:
+## Project Goals:
+I like Steven
 
-- Steven Fact Generator  
-- Steven Quote Archive  
-- Steven Skill Issue Tracker  
-- Steven Randomizer (picks a random roast)
+## Contributors & Support:
+A special shoutout to everyone who contributed to Stupid Steven 67!
 
-## Special Thanks
-A special shoutout to everyone who contributed jokes, ideas, or emotional support during the creation of this masterpiece.
+- **Project Lead:** Me 
+- **Inspiration** Steven 
+- **Creative Support:** Matthew 
+- **Branding & Visuals:** Me 
+- **I Don't Like:** Larisan 
 
-- Main instigator: You  
-- Inspiration: Steven (unfortunately)  
-- Additional chaos: Friends who encouraged this  
-- Logo/branding: TBD (Steven probably won’t like it)
 
