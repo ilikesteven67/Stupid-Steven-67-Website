@@ -8,10 +8,7 @@ This website includes a lot of Steven:
 - About Steven
 - Steven Gallary
 - Relationships
--------------------------------------------------------------------------------------------------------------------------------------------- More Steven Coming Soon!
-
-## Purpose:
-Look at Steven because I like it  
+- More Steven Coming Soon!
 
 
 ## Live Status:
