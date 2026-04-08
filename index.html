@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Steven | Personal Profile</title>
+  <title>Steven | Overview</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body data-page="overview">
   <header class="site-header">
     <div class="brand">
       <span class="brand-mark">S</span>
@@ -20,27 +20,27 @@
     </div>
 
     <nav class="main-nav" aria-label="Primary">
-      <a href="#overview">Overview</a>
-      <a href="#about">About</a>
-      <a href="#gallery">Gallery</a>
-      <a href="#hobbies">Hobbies</a>
-      <a href="#basics">Basics</a>
-      <a href="#contact">More Info</a>
+      <a href="index.html" data-nav="overview">Overview</a>
+      <a href="about.html" data-nav="about">About</a>
+      <a href="gallery.html" data-nav="gallery">Gallery</a>
+      <a href="hobbies.html" data-nav="hobbies">Hobbies</a>
+      <a href="basics.html" data-nav="basics">Basics</a>
+      <a href="more-info.html" data-nav="more-info">More Info</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero" id="overview">
+    <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">A quick introduction</p>
         <h2>A landing page that puts Steven front and center.</h2>
         <p class="hero-text">
-          This site is a clean, scrollable profile experience that highlights who Steven is,
-          what he cares about, and the details that make him memorable.
+          This homepage is now its own separate landing page, giving Steven a clean first impression
+          before visitors click into the rest of the site.
         </p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#about">Learn More</a>
-          <a class="button button-secondary" href="#gallery">View Photos</a>
+          <a class="button button-primary" href="about.html">Learn More</a>
+          <a class="button button-secondary" href="gallery.html">View Photos</a>
         </div>
       </div>
 
@@ -49,133 +49,35 @@
         <ul class="snapshot-list">
           <li><span>Known for</span><strong>Strong personality and unique style</strong></li>
           <li><span>Favorite energy</span><strong>Confident, social, and driven</strong></li>
-          <li><span>Best section to start</span><strong>Overview and basics</strong></li>
+          <li><span>Explore next</span><strong>About, hobbies, and basics pages</strong></li>
         </ul>
       </aside>
     </section>
 
-    <section class="content-section" id="about">
+    <section class="content-section page-intro">
       <div class="section-heading">
-        <p class="eyebrow">About Steven</p>
-        <h2>More descriptive background</h2>
-      </div>
-      <div class="about-grid">
-        <article class="info-panel">
-          <p>
-            Steven is presented here as someone with a strong presence, personal story, and
-            a set of interests worth exploring. This section is a great place to write a fuller
-            description of his personality, background, goals, or what makes him stand out.
-          </p>
-          <p>
-            You can replace this text with real details like where he is from, what he is known
-            for, what people appreciate about him, and the kind of impression he leaves on others.
-          </p>
-        </article>
-        <article class="quote-panel">
-          <p class="quote-mark">"</p>
-          <p class="quote-text">
-            Steven brings together confidence, personality, and a story that deserves its own space.
-          </p>
-        </article>
-      </div>
-    </section>
-
-    <section class="content-section" id="gallery">
-      <div class="section-heading">
-        <p class="eyebrow">Photo Gallery</p>
-        <h2>A space for favorite moments</h2>
-      </div>
-      <div class="gallery-grid">
-        <figure class="gallery-card accent-one">
-          <div class="gallery-placeholder">Steven</div>
-          <figcaption>Portrait photo</figcaption>
-        </figure>
-        <figure class="gallery-card accent-two">
-          <div class="gallery-placeholder">Best Moment</div>
-          <figcaption>Highlight memory</figcaption>
-        </figure>
-        <figure class="gallery-card accent-three">
-          <div class="gallery-placeholder">Hobby Shot</div>
-          <figcaption>Doing what he enjoys</figcaption>
-        </figure>
-        <figure class="gallery-card accent-four">
-          <div class="gallery-placeholder">Another Look</div>
-          <figcaption>Extra image slot</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="content-section" id="hobbies">
-      <div class="section-heading">
-        <p class="eyebrow">Interests</p>
-        <h2>Hobbies and personality points</h2>
+        <p class="eyebrow">Site Overview</p>
+        <h2>Each tab now opens its own page</h2>
       </div>
       <div class="hobby-grid">
         <article class="detail-card">
-          <h3>Favorite Activities</h3>
-          <p>Add a few things Steven enjoys, like sports, gaming, music, travel, fashion, or fitness.</p>
+          <h3>About Page</h3>
+          <p>Use it for Steven's fuller story, personality, background, and a more descriptive introduction.</p>
         </article>
         <article class="detail-card">
-          <h3>Personal Style</h3>
-          <p>Use this space for the vibe he gives off, how he presents himself, or what people notice first.</p>
+          <h3>Gallery Page</h3>
+          <p>Keep photos in their own dedicated space so visitors click directly into the image section.</p>
         </article>
         <article class="detail-card">
-          <h3>Fun Facts</h3>
-          <p>Good place for little details that do not fit neatly into the main about section.</p>
+          <h3>Basics Page</h3>
+          <p>Separate Steven's age, height, weight, and other quick facts from the longer description.</p>
         </article>
-      </div>
-    </section>
-
-    <section class="content-section" id="basics">
-      <div class="section-heading">
-        <p class="eyebrow">Basic Information</p>
-        <h2>Stats and quick facts</h2>
-      </div>
-      <div class="stats-grid">
-        <article class="stat-card">
-          <span class="stat-label">Age</span>
-          <strong class="stat-value">Add age</strong>
-        </article>
-        <article class="stat-card">
-          <span class="stat-label">Height</span>
-          <strong class="stat-value">Add height</strong>
-        </article>
-        <article class="stat-card">
-          <span class="stat-label">Weight</span>
-          <strong class="stat-value">Add weight</strong>
-        </article>
-        <article class="stat-card">
-          <span class="stat-label">Location</span>
-          <strong class="stat-value">Add city or area</strong>
-        </article>
-        <article class="stat-card">
-          <span class="stat-label">Birthday</span>
-          <strong class="stat-value">Add birthday</strong>
-        </article>
-        <article class="stat-card">
-          <span class="stat-label">Known For</span>
-          <strong class="stat-value">Add a short title</strong>
-        </article>
-      </div>
-    </section>
-
-    <section class="content-section contact-section" id="contact">
-      <div class="section-heading">
-        <p class="eyebrow">More Info</p>
-        <h2>One more section for extra details</h2>
-      </div>
-      <div class="info-panel">
-        <p>
-          This can be used for social links, favorite quotes, achievements, future goals,
-          or anything else you want visitors to know about Steven.
-        </p>
-        <a class="button button-primary" href="#overview">Back to Top</a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>Built as a simple profile website for Steven.</p>
+    <p>Built as a multi-page profile website for Steven.</p>
   </footer>
 
   <script src="script.js"></script>
