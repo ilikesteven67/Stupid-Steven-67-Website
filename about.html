@@ -35,6 +35,7 @@
           <label class="sr-only" for="site-search-about">Search the site</label>
           <input id="site-search-about" name="query" type="search" placeholder="Search pages or topics">
           <button type="submit">Search</button>
+          <div class="search-dropdown" data-search-dropdown hidden></div>
         </form>
 
         <div class="social-links" aria-label="Social media links">
@@ -50,18 +51,17 @@
           </a>
         </div>
       </div>
-      <p class="search-message" data-search-message aria-live="polite"></p>
     </div>
   </header>
 
   <main class="page-shell">
-    <section class="content-section page-top">
+    <section class="content-section page-top" id="about-story">
       <div class="section-heading">
         <p class="eyebrow">About Steven</p>
         <h2>More descriptive background</h2>
       </div>
       <div class="about-grid">
-        <article class="info-panel">
+        <article class="info-panel" id="about-description">
           <p>
             Steven is presented here as the star of an intentionally unserious profile site. This page
             is the best place to explain the joke, describe his personality, and document the chaotic
@@ -72,7 +72,7 @@
             stories that prove why the nickname "Stupid Steven" somehow stuck.
           </p>
         </article>
-        <article class="quote-panel">
+        <article class="quote-panel" id="about-quote">
           <p class="quote-mark">"</p>
           <p class="quote-text">
             Some people build a normal profile page. Steven somehow earned an entire comedy archive.

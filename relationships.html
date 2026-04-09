@@ -35,6 +35,7 @@
           <label class="sr-only" for="site-search-relationships">Search the site</label>
           <input id="site-search-relationships" name="query" type="search" placeholder="Search pages or topics">
           <button type="submit">Search</button>
+          <div class="search-dropdown" data-search-dropdown hidden></div>
         </form>
 
         <div class="social-links" aria-label="Social media links">
@@ -50,40 +51,39 @@
           </a>
         </div>
       </div>
-      <p class="search-message" data-search-message aria-live="polite"></p>
     </div>
   </header>
 
   <main class="page-shell">
-    <section class="content-section page-top">
+    <section class="content-section page-top" id="relationships-top">
       <div class="section-heading">
         <p class="eyebrow">Relationships</p>
         <h2>People in the Steven universe</h2>
       </div>
       <div class="hobby-grid">
-        <article class="detail-card">
+        <article class="detail-card" id="relationships-best-friend">
           <h3>Best Friend</h3>
           <p>Add the name of someone who knows Steven best and has probably seen his funniest decisions up close.</p>
         </article>
-        <article class="detail-card">
+        <article class="detail-card" id="relationships-frequent-victim">
           <h3>Frequent Victim</h3>
           <p>Perfect spot for the friend, sibling, or cousin who constantly gets dragged into Steven-related nonsense.</p>
         </article>
-        <article class="detail-card">
+        <article class="detail-card" id="relationships-main-rival">
           <h3>Main Rival</h3>
           <p>Use this for playful enemies, trash-talk targets, or anyone who claims they can outdo Steven at his own hobbies.</p>
         </article>
       </div>
       <div class="stats-grid relationships-grid">
-        <article class="stat-card">
+        <article class="stat-card" id="relationships-person-name">
           <span class="stat-label">Name</span>
           <strong class="stat-value">Add person</strong>
         </article>
-        <article class="stat-card">
+        <article class="stat-card" id="relationships-person-connection">
           <span class="stat-label">How They Know Steven</span>
           <strong class="stat-value">Friend</strong>
         </article>
-        <article class="stat-card">
+        <article class="stat-card" id="relationships-person-rating">
           <span class="stat-label">Steven Rating</span>
           <strong class="stat-value">Tolerates him</strong>
         </article>

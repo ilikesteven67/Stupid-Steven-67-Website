@@ -35,6 +35,7 @@
           <label class="sr-only" for="site-search-gallery">Search the site</label>
           <input id="site-search-gallery" name="query" type="search" placeholder="Search pages or topics">
           <button type="submit">Search</button>
+          <div class="search-dropdown" data-search-dropdown hidden></div>
         </form>
 
         <div class="social-links" aria-label="Social media links">
@@ -50,30 +51,29 @@
           </a>
         </div>
       </div>
-      <p class="search-message" data-search-message aria-live="polite"></p>
     </div>
   </header>
 
   <main class="page-shell">
-    <section class="content-section page-top">
+    <section class="content-section page-top" id="gallery-top">
       <div class="section-heading">
         <p class="eyebrow">Photo Gallery</p>
         <h2>A space for favorite moments</h2>
       </div>
       <div class="gallery-grid">
-        <figure class="gallery-card accent-one">
+        <figure class="gallery-card accent-one" id="gallery-portrait">
           <div class="gallery-placeholder">Steven</div>
           <figcaption>Portrait photo of the man himself</figcaption>
         </figure>
-        <figure class="gallery-card accent-two">
+        <figure class="gallery-card accent-two" id="gallery-best-moment">
           <div class="gallery-placeholder">Best Moment</div>
           <figcaption>One of Steven's finest or dumbest moments</figcaption>
         </figure>
-        <figure class="gallery-card accent-three">
+        <figure class="gallery-card accent-three" id="gallery-hobby-shot">
           <div class="gallery-placeholder">Hobby Shot</div>
           <figcaption>Doing whatever Steven does best</figcaption>
         </figure>
-        <figure class="gallery-card accent-four">
+        <figure class="gallery-card accent-four" id="gallery-extra-look">
           <div class="gallery-placeholder">Another Look</div>
           <figcaption>Extra evidence for the Steven archive</figcaption>
         </figure>

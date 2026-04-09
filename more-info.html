@@ -35,6 +35,7 @@
           <label class="sr-only" for="site-search-more-info">Search the site</label>
           <input id="site-search-more-info" name="query" type="search" placeholder="Search pages or topics">
           <button type="submit">Search</button>
+          <div class="search-dropdown" data-search-dropdown hidden></div>
         </form>
 
         <div class="social-links" aria-label="Social media links">
@@ -50,17 +51,16 @@
           </a>
         </div>
       </div>
-      <p class="search-message" data-search-message aria-live="polite"></p>
     </div>
   </header>
 
   <main class="page-shell">
-    <section class="content-section page-top contact-section">
+    <section class="content-section page-top contact-section" id="more-info-top">
       <div class="section-heading">
         <p class="eyebrow">More Info</p>
         <h2>One more section for extra details</h2>
       </div>
-      <div class="info-panel">
+      <div class="info-panel" id="more-info-details">
         <p>
           This page can be used for social links, favorite quotes, achievements, future goals,
           inside jokes, fake awards, or anything else you want visitors to know about Steven.

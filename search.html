@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stupid Steven | Overview</title>
+  <title>Stupid Steven | Search</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body data-page="overview">
+<body data-page="search">
   <header class="site-header">
     <div class="brand">
       <span class="brand-mark">S</span>
@@ -32,8 +32,8 @@
 
       <div class="utility-row">
         <form class="site-search" data-search-form>
-          <label class="sr-only" for="site-search-overview">Search the site</label>
-          <input id="site-search-overview" name="query" type="search" placeholder="Search pages or topics">
+          <label class="sr-only" for="site-search-results">Search the site</label>
+          <input id="site-search-results" name="query" type="search" placeholder="Search pages or topics">
           <button type="submit">Search</button>
           <div class="search-dropdown" data-search-dropdown hidden></div>
         </form>
@@ -54,50 +54,13 @@
     </div>
   </header>
 
-  <main>
-    <section class="hero" id="overview-hero">
-      <div class="hero-copy" id="overview-intro">
-        <p class="eyebrow">A quick introduction</p>
-        <h2>A landing page for the legend known as Stupid Steven.</h2>
-        <p class="hero-text">
-          This homepage sets the tone for a playful joke site all about Steven, with enough space
-          to roast him a little while still showing off his stories, habits, and random facts.
-        </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="about.html">Learn More</a>
-          <a class="button button-secondary" href="gallery.html">View Photos</a>
-        </div>
-      </div>
-
-      <aside class="hero-card" id="overview-snapshot">
-        <p class="eyebrow">Quick snapshot</p>
-        <ul class="snapshot-list">
-          <li><span>Known for</span><strong>Being Steven, for better or worse</strong></li>
-          <li><span>Reputation</span><strong>Lovably chaotic and a little ridiculous</strong></li>
-          <li><span>Explore next</span><strong>About, basics, and relationships pages</strong></li>
-        </ul>
-      </aside>
-    </section>
-
-    <section class="content-section page-intro" id="overview-guide">
+  <main class="page-shell">
+    <section class="content-section page-top search-results-section" id="search-results-page">
       <div class="section-heading">
-        <p class="eyebrow">Site Overview</p>
-        <h2>Each tab now opens its own page</h2>
+        <p class="eyebrow">Search Results</p>
+        <h2 data-results-heading>Results for your search</h2>
       </div>
-      <div class="hobby-grid">
-        <article class="detail-card" id="overview-about-page">
-          <h3>About Page</h3>
-          <p>Use it for Steven's fuller story, personality, background, and the running joke behind the site.</p>
-        </article>
-        <article class="detail-card" id="overview-gallery-page">
-          <h3>Gallery Page</h3>
-          <p>Keep photos in their own dedicated space so visitors can admire the many faces of Stupid Steven.</p>
-        </article>
-        <article class="detail-card" id="overview-relationships-page">
-          <h3>Relationships Page</h3>
-          <p>List people he knows, friends, rivals, and anyone else who gets dragged into the Steven lore.</p>
-        </article>
-      </div>
+      <div class="search-results-list" data-results-list></div>
     </section>
   </main>
 
