@@ -568,6 +568,14 @@ main {
   box-shadow: none;
 }
 
+.site-search .search-dropdown-item {
+  padding: 8px 12px;
+  border-radius: 0;
+  background: #ffffff;
+  color: #000000;
+  font-weight: 400;
+}
+
 .search-dropdown-item:last-child {
   border-bottom: 0;
 }
